@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="top" transform="translate(-325 -44)">
+    <g id="menu_button" data-name="menu button" transform="translate(325.139 43.5)">
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(-0.139 0.5)" fill="#00ffcb" stroke="#fff" stroke-width="1">
+        <circle cx="15" cy="15" r="15" stroke="none"/>
+        <circle cx="15" cy="15" r="14.5" fill="none"/>
+      </g>
+      <path id="Icon_open-menu" data-name="Icon open-menu" d="M0,0V2.119H16.951V0ZM0,6.293V8.412H16.951V6.293Zm0,6.356v2.119H16.951V12.649Z" transform="translate(6.851 7.58)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

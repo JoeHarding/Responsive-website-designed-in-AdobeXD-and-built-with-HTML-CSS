@@ -1,0 +1,277 @@
+/*-----global-----*/
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #00FFCB;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.btnOutline {
+    display: block;
+    text-decoration: none;
+    color: #00FFCB;
+    border: 2px solid #00FFCB;
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btnFilled {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #00FFCB;
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+/*-----nav-----*/
+
+
+
+nav {
+    line-height: 150px;
+    text-align: right;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav a:first-child {
+    float: left;
+}
+
+nav a img {
+    vertical-align: middle;
+}
+
+nav a span {
+    background-color: #00FFCB;
+    padding: 5px 15px;
+    border-radius: 1000px;
+    font-weight: bold;
+    color: white;
+    margin-left: 7px;
+}
+
+
+
+/*-----header-----*/
+
+
+
+header{
+    height: 1000px;
+    min-height: 1000px;
+    padding: 0 5%;
+    background-image: url(images/background\ header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+}
+
+
+header h1 {
+    width: 40%;
+    margin: 2em 0 0 0;
+    
+}
+
+/*----activities-----*/
+
+
+.activities {
+    text-align: center;
+    margin: 10em 0 3em 0;
+    padding: 0 5%;
+
+}
+
+.activities h1 {
+   width: 50%;
+   margin: 0 auto 30px auto;
+}
+
+.activityicons {
+    display: flex;
+    justify-content: center;
+}
+
+.person {
+    margin: 0 30px;
+}
+
+
+
+/*----about-----*/
+
+.about {
+    padding: 0 5%;
+    background-image: url(images/background_about.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 80%;
+    height: 900px;
+    min-height: 900%;
+}
+
+.about h1 {
+    margin-bottom: 30px;
+    padding-top: 300px;
+    margin-left: 50%;
+}
+
+
+/*----call to action-----*/
+
+.callToAction {
+    text-align: center;
+    padding: 10em 5% 20em 5%;
+    
+    
+}
+
+.callToAction h1, .callToAction a {
+    display: inline-block;
+    margin: 0 60px;
+    vertical-align: middle;
+    margin-bottom: 38px;
+}
+
+.callToAction h1 {
+   font-weight: bold;
+   
+}
+
+
+/*----footer-----*/
+
+footer {
+    padding: 0 5%;
+    margin-bottom: 40px;
+    color: #00FFCB;
+}
+
+footer p, .footerPages {
+    display: inline-block;
+}
+
+.footerPages {
+    float: right;
+}
+
+.footerPages a {
+    text-decoration: none;
+    font-weight: 100;
+    color: #00FFCB;
+    margin-left: 30px;
+}
+
+
+
+/*----responsive-----*/
+
+
+
+
+@media only screen and (max-width: 700px) {
+    
+    
+    header{
+        height: 1500px;
+        min-height: 1500px;
+        padding: 0 5%;
+        background-image: url(images/mobile_header.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom right;
+    }
+
+    header h1 {
+        width: 100%;
+    }
+    
+    .activities {
+        margin: 15em 0 15em 0;
+        padding: 0 5%;
+    
+    }
+
+    .activities h1 {
+        width: 100%;
+    }
+
+    .about {
+     
+     background-image: url(images/background\ about.svg);
+     background-size: contain;
+     height: 900px;
+     min-height: 900px;
+     overflow-y: visible;
+     
+    }
+
+    .about h1 {
+        padding-top: 800px;
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+    .callToAction {
+        margin-top: 15em;
+        padding: 15em 5% 15em 5%;
+        background-size: 70%;
+
+    }
+
+    .callToAction h1, .callToAction a {
+        margin-bottom: 38px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footerPages {
+        visibility: hidden;
+    }
+    
+  
+
+}
